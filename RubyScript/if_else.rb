@@ -9,3 +9,33 @@ elsif n.odd?
 else
   puts '모르겠다.'
 end
+
+
+a = if true
+      1
+    end
+p a
+
+b = 1 if true
+p b
+b = 2 if false
+p b
+
+c = 3 if false
+p c
+c = 3 if true
+p c
+
+d = if false then
+      1
+    elsif false
+      2
+    else
+      3
+    end
+
+p d
+
+unless false
+  p 1222
+end
